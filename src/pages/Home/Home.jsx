@@ -5,6 +5,7 @@ import Publication from "./Publication";
 import posts from '../../utils/posts'
 import '../Home/home.css'
 import View from "./view";
+import Footer from "../Footer/Footer";
 
 
 function Home() {
@@ -28,6 +29,7 @@ function Home() {
       ))}
     </div>
     <View/>
+    <Footer/>
     </div>
   );
 }
