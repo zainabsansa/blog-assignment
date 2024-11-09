@@ -1,12 +1,11 @@
 import React from "react";
-import Nav from './Nav'
+import Nav from "./Nav";
 import Bio from "./Bio";
 import Publication from "./Publication";
-import posts from '../../utils/posts'
-import '../Home/home.css'
+import posts from "../../utils/posts";
+import "../Home/home.css";
 import View from "./view";
 import Footer from "../Footer/Footer";
-
 
 function Home() {
   return (
@@ -18,18 +17,16 @@ function Home() {
         alt="one pic like that"
         caption="Exploring the mountains in Indonesia - Unsplash"
       />
-    <div >
       {posts.map((post) => (
-        <Publication 
-        date={post.date}
-        tag={post.tag}
-        title={post.title}
-        imageUrl={post.imageUrl}
+        <Publication
+          date={post.date}
+          tag={post.tag}
+          title={post.title}
+          imageUrl={post.imageUrl}
         />
       ))}
-    </div>
-    <View/>
-    <Footer/>
+      <View />
+      <Footer />
     </div>
   );
 }

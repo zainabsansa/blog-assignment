@@ -1,20 +1,22 @@
-import React from 'react'
+import React from "react";
 
 function FooterLegal() {
   return (
-    <div>
+    <div className="legal">
+      <div className="line"></div>
+      <div className="copyright footer">
         <div>
-            <span>&copy; 2024 nrk9819</span>
+          <span>&copy; 2024 <a href="#">nrk9819</a></span>
         </div>
         <div>
-            <ul>
-                <li>Privacy Policy</li>
-                <li>Terms and Conditions</li>
-            </ul>
-
+          <ul>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms and Conditions</a></li>
+          </ul>
         </div>
+      </div>
     </div>
-  )
+  );
 }
 
-export default FooterLegal
+export default FooterLegal;

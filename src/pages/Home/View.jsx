@@ -1,9 +1,8 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 
 function View() {
   return (
-    <div>
+    <div className='viewmore'>
         <button>View More</button>
     </div>
   )
