@@ -1,9 +1,9 @@
 import React from 'react'
 
-function View() {
+function View(props) {
   return (
     <div className='viewmore'>
-        <button>View More</button>
+        <button>{props?.button}</button>
     </div>
   )
 }

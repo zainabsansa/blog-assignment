@@ -7,6 +7,11 @@ function Nav() {
     <div className="starter">
       <h4 className="logo">Starter</h4>
       <ul className="nav-link">
+      <li>
+          <Link className="route-link" to={"/"}>
+            Home
+          </Link>
+        </li>
         <li>
           <Link className="route-link" to={"/about"}>
             About

@@ -25,7 +25,7 @@ function Home() {
           imageUrl={post.imageUrl}
         />
       ))}
-      <View />
+      <View button="View More"/>
       <Footer />
     </div>
   );
