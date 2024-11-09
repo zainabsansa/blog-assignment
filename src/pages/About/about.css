@@ -1,0 +1,32 @@
+.hero {
+  width: 50%;
+}
+.hero h2 {
+  text-align: left;
+  font-family: "Inter", sans-serif;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 40px;
+  color: #171717;
+  margin-bottom: 2.5rem;
+}
+.hero img {
+  width: 100%;
+  margin-bottom: 3rem;
+}
+.hero p {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  color: #3D3D3D;
+  text-align: left;
+  padding-bottom: 3rem;
+}
+.hero p a{
+  color: #171717;
+  font-weight: 500;
+}
+p a.download{
+  text-decoration: none;
+}
