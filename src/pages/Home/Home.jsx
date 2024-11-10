@@ -6,6 +6,7 @@ import posts from "../../utils/posts";
 import "../Home/home.css";
 import View from "./view";
 import Footer from "../Footer/Footer";
+import coverimg from "../../assets/coverimg.png"
 
 function Home() {
   return (
@@ -14,8 +15,9 @@ function Home() {
       <Bio
         bio="Starter - a Minimalist Personal Blog Template."
         heading=" 'Starter' is a, well starter theme designed by nrk9819 for Ghost (CMS), 11ty, enhance, astro and many other site generators."
+        img={coverimg}
         alt="one pic like that"
-        caption="Exploring the mountains in Indonesia - Unsplash"
+        caption="Minimalism is the key of peaceful life"
       />
       {posts.map((post) => (
         <Publication

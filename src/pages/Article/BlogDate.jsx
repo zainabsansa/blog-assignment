@@ -1,23 +1,23 @@
 import React from "react";
-import Nav from "../Home/Nav";
+import "../Article/article.css";
 import Bio from "../Home/Bio";
-import View from "../Home/view";
-import Footer from "../Footer/Footer";
-import coverimage from "../../assets/coverimage.png"
+import coverimage2 from "../../assets/coverimage2.png"
 
-function Blog() {
+function BlogDate() {
   return (
     <div>
-      <Nav />
+      <div className="blogDate">
+        <span>February 2, 2024 in #sustainability</span>
+        <span>5 min read</span>
+      </div>
       <Bio
         bio="Living Light: The Minimalist Lifestyle and its Environmental Impact"
         heading="Explore the profound connection between embracing minimalism and reducing your environmental footprint, discovering how living light can lead to a more sustainable and fulfilling life."
-        img={coverimage} alt='pic'
+        img={coverimage2}
       />
-      <View button="Load More" />
-      <Footer />
+      
     </div>
   );
 }
 
-export default Blog;
+export default BlogDate;

@@ -1,7 +1,7 @@
 .bio {
   /* padding-top: 7rem; */
   text-align: left;
-  width: 60%;
+  width: 70%;
 }
 .biotext {
   padding: 0 6rem;
@@ -30,9 +30,11 @@
   opacity: 0px;
   /* justify-self: center; */
   display: block;
+  /* width: 80%; */
   max-width: 100%;
+  margin-bottom: 1rem;
 }
-.bio figcaption {
+.img.with-caption {
   font-family: "Inter", sans-serif;
   font-size: 12px;
   font-style: italic;
@@ -40,10 +42,11 @@
   line-height: 15.6px;
   color: var(--neutral-600, #525252);
   text-align: center;
-  padding-top: 1rem;
-  margin-bottom: 15rem;
+  /* margin-top: 1rem; */
+  padding-bottom: 15rem;
 }
 .blog-post {
+  /* margin-top: 15rem; */
   margin-bottom: 2rem;
   width: 50%;
   text-align: left;

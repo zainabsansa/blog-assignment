@@ -3,7 +3,7 @@
   /* justify-content: space-between; */
   gap: 20rem;
   margin-top: 8rem;
-  width: 70%;
+  width: 60%;
   margin-bottom: 5rem;
 }
 .site-info h3 {
@@ -30,6 +30,10 @@ p span a {
   color: black;
 }
 .social-links ul {
+  /* text-decoration: none; */
+  display: flex;
+  list-style: none;
+  gap: 1rem;
   flex-direction: column;
   text-align: left;
 }
@@ -41,18 +45,25 @@ p span a {
   line-height: 14px;
   text-align: left;
   text-decoration: none;
-  text-underline-position: from-font;
-  text-decoration-skip-ink: none;
 }
 .social-links li a {
   text-decoration: none;
   color: #3d3d3d;
 }
 .legal div{
-  width: 70%;
+  width: 60%;
 }
 .line {
   border: 1px solid #e5e5e5;
+}
+.copyright{
+  display: flex;
+  margin-top: 8rem;
+  margin-bottom: 5rem;
+}
+.copyright ul{
+  display: flex;
+  list-style: none;
 }
 .copyright span a{
   text-decoration: none;
@@ -65,7 +76,7 @@ p span a {
   line-height: 14px;
   text-align: left;
   color: #525252;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   text-decoration: none;
 }
 

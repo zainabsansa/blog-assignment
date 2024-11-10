@@ -4,7 +4,7 @@ function FooterLegal() {
   return (
     <div className="legal">
       <div className="line"></div>
-      <div className="copyright footer">
+      <div className="copyright">
         <div>
           <span>&copy; 2024 <a href="#">nrk9819</a></span>
         </div>

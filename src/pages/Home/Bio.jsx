@@ -1,5 +1,5 @@
 import React from "react";
-import img from "../../assets/image.png";
+
 
 function Bio(props) {
   return (
@@ -9,12 +9,13 @@ function Bio(props) {
         <h5>{props?.heading}</h5>
       </div>
 
-      <div className="img">
-        <img src={img} alt={props?.alt} />
-        <figcaption>{props?.caption}</figcaption>
+      <div className={`img ${props.caption ? 'with-caption' : ''}`}>
+        <img src={props.img} alt={props?.alt} />
+        {props.caption && <figcaption>{props.caption}</figcaption>}
       </div>
     </div>
   );
 }
+
 
 export default Bio;
