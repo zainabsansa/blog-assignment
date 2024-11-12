@@ -1,6 +1,6 @@
 import React from "react";
 import Nav from "./Nav";
-import Bio from "./Bio";
+import Bio from "../Bio/Bio"
 import Publication from "./Publication";
 import posts from "../../utils/posts";
 import "../Home/home.css";
@@ -10,7 +10,7 @@ import coverimg from "../../assets/coverimg.png"
 
 function Home() {
   return (
-    <div>
+    <div className="home-hero">
       <Nav />
       <Bio
         bio="Starter - a Minimalist Personal Blog Template."

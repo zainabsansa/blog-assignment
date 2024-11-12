@@ -1,6 +1,6 @@
 import React from "react";
 import "../Article/article.css";
-import Bio from "../Home/Bio";
+import Bio from "../Bio/Bio"
 import coverimage2 from "../../assets/coverimage2.png"
 
 function BlogDate() {
